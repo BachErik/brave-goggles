@@ -1,0 +1,93 @@
+! name: BachErik Dev
+! description: Boosts official docs, wikis and forges for Java, Go, Python, NixOS, Kubernetes/homelab, Vue and Minecraft modding. Downranks content farms and SEO tutorial mills.
+! public: false
+! author: BachErik
+
+! ============================================================
+! Forges & Q&A
+! ============================================================
+$boost=4,site=codeberg.org
+$boost=4,site=github.com
+$boost=2,site=gitlab.com
+$boost=3,site=stackoverflow.com
+$boost=3,site=unix.stackexchange.com
+$boost=2,site=serverfault.com
+$boost=2,site=superuser.com
+
+! ============================================================
+! NixOS / Linux / desktop
+! ============================================================
+$boost=5,site=wiki.nixos.org
+$boost=5,site=search.nixos.org
+$boost=4,site=nixos.org
+$boost=4,site=nix.dev
+$boost=4,site=noogle.dev
+$boost=3,site=mynixos.com
+$boost=3,site=discourse.nixos.org
+$boost=4,site=wiki.archlinux.org
+$boost=3,site=man7.org
+$boost=3,site=wiki.hypr.land
+$boost=3,site=docs.kde.org
+$boost=2,site=userbase.kde.org
+
+! ============================================================
+! Kubernetes / homelab stack
+! ============================================================
+$boost=5,site=kubernetes.io
+$boost=4,site=docs.k3s.io
+$boost=4,site=fluxcd.io
+$boost=4,site=fluxcd.control-plane.io
+$boost=4,site=doc.traefik.io
+$boost=4,site=gateway-api.sigs.k8s.io
+$boost=4,site=longhorn.io
+$boost=4,site=cloudnative-pg.io
+$boost=4,site=cert-manager.io
+$boost=4,site=kubernetes-sigs.github.io
+$boost=4,site=docs.renovatebot.com
+$boost=3,site=www.keycloak.org
+$boost=3,site=forgejo.org
+$boost=3,site=artifacthub.io
+
+! ============================================================
+! Languages & frameworks
+! ============================================================
+$boost=5,site=go.dev
+$boost=5,site=pkg.go.dev
+$boost=4,site=docs.oracle.com
+$boost=4,site=openjdk.org
+$boost=4,site=docs.python.org
+$boost=3,site=pypi.org
+$boost=4,site=developer.mozilla.org
+$boost=4,site=vuejs.org
+$boost=3,site=vite.dev
+$boost=3,site=pnpm.io
+$boost=3,site=libgdx.com
+$boost=3,site=docs.manim.community
+$boost=2,site=jetbrains.com
+$boost=2,site=w3schools.com
+
+! ============================================================
+! Minecraft
+! ============================================================
+$boost=4,site=minecraft.wiki
+$boost=4,site=docs.fabricmc.net
+$boost=3,site=fabricmc.net
+$boost=3,site=modrinth.com
+$boost=3,site=docker-minecraft-server.readthedocs.io
+
+! ============================================================
+! Downrank: SEO tutorial mills, paywalled/low-signal blogs
+! ============================================================
+$downrank=4,site=geeksforgeeks.org
+$downrank=5,site=tutorialspoint.com
+$downrank=5,site=javatpoint.com
+$downrank=3,site=medium.com
+$downrank=2,site=dev.to
+$downrank=4,site=minecraft.fandom.com
+
+! ============================================================
+! Discard: never useful for dev searches
+! ============================================================
+$discard,site=pinterest.com
+$discard,site=pinterest.de
+$discard,site=quora.com
